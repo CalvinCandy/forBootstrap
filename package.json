@@ -1,0 +1,24 @@
+{
+  "name": "git",
+  "version": "1.0.0",
+  "description": "just testing git and node",
+  "main": "index.html",
+  "scripts": {
+    "start":"npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite":"lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CalvinCandy/forBootstrap.git"
+  },
+  "author": "CalvinCandy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CalvinCandy/forBootstrap/issues"
+  },
+  "homepage": "https://github.com/CalvinCandy/forBootstrap#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
